@@ -1,17 +1,9 @@
 .our-works-main {
-    @extend %section;
     padding-top: 0;
-  }
+}
   
-.our-works-container {
-    @extend %container;
-}
-.our-works-title {
-    @extend %section-title;
-}
-
 .works-list {
-    @extend %list;
+    @extend .list;
     display: flex;
 }
 

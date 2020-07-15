@@ -1,8 +1,7 @@
 @import "./utils/variables";
 @import "./base/fonts";
 @import "./base/normalize";
-@import "./utils/placeholders";
-@import "./components/body";
+@import "./base/base";
 @import "./components/page-header";
 @import "./components/logo-header";
 @import "./components/page-nav";
@@ -12,8 +11,9 @@
 @import "./components/Features";
 @import "./components/our-works";
 @import "./components/our-team";
-@import "./components/regular-customers";
+@import "./components/customers";
 @import "./components/page-footer";
 @import "./components/footer-form-subscribe";
 @import "./components/portfolio";
-
+@import "./components/portfolio-filters";
+@import "./components/portfolio-project";

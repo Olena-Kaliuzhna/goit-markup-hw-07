@@ -1,20 +1,6 @@
-.page-portfolio-section {
-    @extend %section;
-}
 
-.page-portfolio-container {
-    @extend %container;
-}
-
-
-.filters-title {
-    @extend %section-title;
-    @extend %visually-hidden;
-       
-}
-  
 .filters-list {
-    @extend %list;
+    @extend .list;
     display: flex;
     justify-content: center;
     margin-top: 0;

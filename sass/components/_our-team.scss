@@ -1,18 +1,9 @@
-.our-team-main {
-    @extend %section;
+.our-team-main {   
     background: #F5F4FA;
 }
 
-.our-team-container {
-    @extend %container;
-}
-
-.our-team-title{
-    @extend %section-title;
-}
-
 .our-team-list {
-    @extend %list;
+    @extend .list;
     display: flex;   
 }
 
@@ -59,7 +50,7 @@
     letter-spacing: 0.03em;
 }
 .social-list {
-    @extend %list;
+    @extend .list;
     display: flex;
     height: 44px;
     margin: 0;
@@ -71,7 +62,7 @@
 }
 
 .social-link {
-    @extend %link;
+    @extend .link;
     display: flex;
     justify-content: center;
     align-items: center;

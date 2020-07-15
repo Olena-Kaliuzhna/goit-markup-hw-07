@@ -1,18 +1,7 @@
-.features-section {
-    @extend %section;
-}
 
-.features-container {
-    @extend %container;
-}
-
-.features-title {
-  @extend %section-title;
-  @extend %visually-hidden;
-}
 
 .features-list {
-    @extend %list;
+    @extend .list;
     display: flex; 
   }
   

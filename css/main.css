@@ -256,7 +256,16 @@ summary {
   display: list-item;
 }
 
-.logo, .page-nav-link, .nav-contacts-link, .social-link, .customers-link, .footer-mail,
+body {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  color: #757575;
+  font-family: 'Roboto', sans-serif;
+}
+
+.link, .logo, .page-nav-link, .nav-contacts-link, .social-link, .customers-link, .footer-mail,
 .footer-tel, .footer-socials-link, .projects-link {
   padding: 0;
   margin: 0;
@@ -264,13 +273,13 @@ summary {
   text-decoration: none;
 }
 
-.page-nav, .nav-contacts, .features-list, .works-list, .our-team-list, .social-list, .customers-list, .footer-contacts-list, .footer-socials-list, .filters-list, .projects-list {
+.list, .page-nav-list, .nav-contacts, .features-list, .works-list, .our-team-list, .social-list, .customers-list, .footer-contacts-list, .footer-socials-list, .filters-list, .projects-list {
   padding: 0;
   margin: 0;
   list-style: none;
 }
 
-.page-header, .features-container, .our-works-container, .our-team-container, .regular-customers-container, .page-footer, .page-portfolio-container {
+.container {
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
@@ -278,12 +287,12 @@ summary {
   padding-right: 15px;
 }
 
-.features-section, .our-works-main, .our-team-main, .regular-customers-section, .page-portfolio-section {
+.section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
 
-.features-title, .our-works-title, .our-team-title, .regular-customers-title, .filters-title {
+.section-title {
   margin-top: 0;
   margin-bottom: 50px;
   text-align: center;
@@ -302,7 +311,7 @@ img {
   margin: 0;
 }
 
-.checkbox, .features-title, .filters-title {
+.visually-hidden {
   position: absolute;
   height: 1px;
   width: 1px;
@@ -311,15 +320,6 @@ img {
   border: 0;
   clip: rect(0 0 0 0);
   overflow: hidden;
-}
-
-body {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
-  background-color: #ffffff;
-  color: #757575;
-  font-family: 'Roboto', sans-serif;
 }
 
 .main-header {
@@ -357,7 +357,7 @@ body {
           align-items: center;
 }
 
-.page-nav {
+.page-nav-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

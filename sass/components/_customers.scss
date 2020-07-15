@@ -1,16 +1,5 @@
-.regular-customers-section {
-    @extend %section;
-}
-
-.regular-customers-container {
-    @extend %container;
-}
-
-.regular-customers-title {
-    @extend %section-title;
-}
 .customers-list {
-    @extend %list;
+    @extend .list;
     display: flex;
 }
 
@@ -27,7 +16,7 @@
 
 
 .customers-link {
-    @extend %link;
+    @extend .link;
     display: flex;
     justify-content: center;
     align-items: center; 

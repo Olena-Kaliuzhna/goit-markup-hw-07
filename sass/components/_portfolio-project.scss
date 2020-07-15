@@ -1,5 +1,5 @@
 .projects-list {
-    @extend %list;
+    @extend .list;
     display: flex;
     flex-wrap: wrap;
 }
@@ -22,7 +22,7 @@
 
 
 .projects-link {
-    @extend %link;
+    @extend .link;
     display: inline-block;
 
     &:hover {

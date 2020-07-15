@@ -5,8 +5,7 @@
 
 }
 
-.page-footer {
-    @extend %container;
+.page-footer {    
     display: flex;
     
 }
@@ -39,12 +38,12 @@
 }
 
 .footer-contacts-list {
-    @extend %list;
+    @extend .list;
 }
 
 .footer-mail,
 .footer-tel {
-    @extend %link;
+    @extend .link;
     display: inline-block;
     margin-top: 0;
     margin-bottom: 9px;
@@ -75,7 +74,7 @@
 }
 
 .footer-socials-list {
-    @extend %list;
+    @extend .list;
     display: flex;
 }
 
@@ -86,7 +85,7 @@
 }
 
 .footer-socials-link {
-    @extend %link;
+    @extend .link;
     display: flex;
     justify-content: center;
     align-items: center;
